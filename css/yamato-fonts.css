@@ -1,0 +1,85 @@
+/**
+ * Yamato Fonts - Custom fonts for Space Battleship Yamato series
+ * Host: https://kongyo2.github.io/kongyo-mw-css/css/yamato-fonts.css
+ * Usage in Uncyclopedia:
+ *   @import "https://kongyo2.github.io/kongyo-mw-css/css/yamato-fonts.css";
+ */
+
+/* ============================================
+   Garmillas (ガミラス語)
+   ============================================ */
+@font-face {
+  font-family: 'Garmillas';
+  src: url('../font/Garmillas-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Garmillas';
+  src: url('../font/GarmillasLight-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Iskandar (イスカンダル語)
+   ============================================ */
+@font-face {
+  font-family: 'Iskandar';
+  src: url('../font/Iskandar-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Iskandar';
+  src: url('../font/IskandarLight-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Gatlantis (ガトランティス語)
+   ============================================ */
+@font-face {
+  font-family: 'Gatlantis';
+  src: url('../font/Gatlantis-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Gatlantis';
+  src: url('../font/GatlantisLight-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Aquarius (アクエリアス語)
+   ============================================ */
+@font-face {
+  font-family: 'Aquarius';
+  src: url('../font/Aquarius-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+.font-garmillas { font-family: 'Garmillas', sans-serif; }
+.font-garmillas-light { font-family: 'Garmillas', sans-serif; font-weight: 300; }
+.font-iskandar { font-family: 'Iskandar', sans-serif; }
+.font-iskandar-light { font-family: 'Iskandar', sans-serif; font-weight: 300; }
+.font-gatlantis { font-family: 'Gatlantis', sans-serif; }
+.font-gatlantis-light { font-family: 'Gatlantis', sans-serif; font-weight: 300; }
+.font-aquarius { font-family: 'Aquarius', sans-serif; }

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kongyo MW CSS - Font Preview</title>
+  <link rel="stylesheet" href="css/yamato-fonts.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      color: #e0e0e0;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #e94560;
+      text-shadow: 0 0 20px rgba(233, 69, 96, 0.5);
+    }
+    .font-card {
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      backdrop-filter: blur(10px);
+    }
+    .font-name {
+      font-size: 0.9rem;
+      color: #e94560;
+      margin-bottom: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+    .font-preview {
+      font-size: 2.5rem;
+      line-height: 1.4;
+      margin-bottom: 0.5rem;
+    }
+    .font-info {
+      font-size: 0.8rem;
+      color: #888;
+    }
+    .usage {
+      background: #0d1117;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-family: 'Consolas', monospace;
+      font-size: 0.85rem;
+      overflow-x: auto;
+    }
+    .usage code { color: #58a6ff; }
+    .usage .string { color: #a5d6ff; }
+  </style>
+</head>
+<body>
+  <h1>🚀 Yamato Fonts</h1>
+  
+  <div class="font-card">
+    <div class="font-name">Garmillas (ガミラス語)</div>
+    <div class="font-preview font-garmillas">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+    <div class="font-preview font-garmillas-light" style="font-weight:300">abcdefghijklmnopqrstuvwxyz 0123456789</div>
+    <div class="font-info">font-family: 'Garmillas'</div>
+  </div>
+
+  <div class="font-card">
+    <div class="font-name">Iskandar (イスカンダル語)</div>
+    <div class="font-preview font-iskandar">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+    <div class="font-preview font-iskandar-light" style="font-weight:300">abcdefghijklmnopqrstuvwxyz 0123456789</div>
+    <div class="font-info">font-family: 'Iskandar'</div>
+  </div>
+
+  <div class="font-card">
+    <div class="font-name">Gatlantis (ガトランティス語)</div>
+    <div class="font-preview font-gatlantis">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+    <div class="font-preview font-gatlantis-light" style="font-weight:300">abcdefghijklmnopqrstuvwxyz 0123456789</div>
+    <div class="font-info">font-family: 'Gatlantis'</div>
+  </div>
+
+  <div class="font-card">
+    <div class="font-name">Aquarius (アクエリアス語)</div>
+    <div class="font-preview font-aquarius">ABCDEFGHIJKLMNOPQRSTUVWXYZ</div>
+    <div class="font-preview font-aquarius">abcdefghijklmnopqrstuvwxyz 0123456789</div>
+    <div class="font-info">font-family: 'Aquarius'</div>
+  </div>
+
+  <div class="usage">
+    <strong>Usage in Uncyclopedia:</strong><br><br>
+    <code>{{#tag:css|</code><br>
+    <code>@import </code><span class="string">"https://kongyo2.github.io/kongyo-mw-css/css/yamato-fonts.css"</span><code>;</code><br>
+    <code>.my-text { font-family: 'Garmillas', sans-serif; }</code><br>
+    <code>}}</code>
+  </div>
+</body>
+</html>

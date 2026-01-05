@@ -1,0 +1,178 @@
+/**
+ * North Korea Fonts - 조선민주주의인민공화국 표준 서체
+ * Host: https://kongyo2.github.io/kongyo-mw-css/css/north-korea-fonts.css
+ * Usage in Uncyclopedia:
+ *   @import "https://kongyo2.github.io/kongyo-mw-css/css/north-korea-fonts.css";
+ */
+
+/* ============================================
+   CheonRiMa (천리마체)
+   ============================================ */
+@font-face {
+  font-family: 'CheonRiMa';
+  src: url('../font/KCC-KP-CheonRiMa-Light-KP-2011KPS.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CheonRiMa';
+  src: url('../font/KCC-KP-CheonRiMa-Normal-KP-2011KPS.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CheonRiMa';
+  src: url('../font/KCC-KP-CheonRiMa-Medium-KP-2011KPS.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CheonRiMa';
+  src: url('../font/KCC-KP-CheonRiMa-Bold-KP-2011KPS.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   CheongPong (청봉체)
+   ============================================ */
+@font-face {
+  font-family: 'CheongPong';
+  src: url('../font/KCC-KP-CheongPong-Light-KP-2011KPS.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CheongPong';
+  src: url('../font/KCC-KP-CheongPong-Medium-KP-2011KPS.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CheongPong';
+  src: url('../font/KCC-KP-CheongPong-Bold-KP-2011KPS.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   KwangMyeong (광명체)
+   ============================================ */
+@font-face {
+  font-family: 'KwangMyeong';
+  src: url('../font/KCC-KP-KwangMyeong-Medium-KP-2011KPS.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KwangMyeong';
+  src: url('../font/KCC-KP-KwangMyeong-Bold-KP-2011KPS.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   PyeonChe (편체/붓글씨체)
+   ============================================ */
+@font-face {
+  font-family: 'PyeonChe';
+  src: url('../font/KCC-KP-CR_PyeonChe-Bold-KP-2011KPS.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Tungkeun (퉁근체)
+   ============================================ */
+@font-face {
+  font-family: 'Tungkeun';
+  src: url('../font/KCC-KP-CR_Tungkeun-Medium-KP-2011KPS.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   KungChe (궁체)
+   ============================================ */
+@font-face {
+  font-family: 'KungChe';
+  src: url('../font/KCC-KP-PK_KungChe-Medium-KP-2011KPS.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Yeso (예서체)
+   ============================================ */
+@font-face {
+  font-family: 'Yeso';
+  src: url('../font/KCC-KP-PK_Yeso-Bold-KP-2011KPS.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   PusKul (붓끌체)
+   ============================================ */
+@font-face {
+  font-family: 'PusKul';
+  src: url('../font/KCC-KP-PusKul-Medium-KP-2011KPS.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ============================================
+   Utility Classes
+   ============================================ */
+/* CheonRiMa (천리마체) */
+.font-cheonrima { font-family: 'CheonRiMa', sans-serif; }
+.font-cheonrima-light { font-family: 'CheonRiMa', sans-serif; font-weight: 300; }
+.font-cheonrima-medium { font-family: 'CheonRiMa', sans-serif; font-weight: 500; }
+.font-cheonrima-bold { font-family: 'CheonRiMa', sans-serif; font-weight: 700; }
+
+/* CheongPong (청봉체) */
+.font-cheongpong { font-family: 'CheongPong', sans-serif; }
+.font-cheongpong-light { font-family: 'CheongPong', sans-serif; font-weight: 300; }
+.font-cheongpong-medium { font-family: 'CheongPong', sans-serif; font-weight: 500; }
+.font-cheongpong-bold { font-family: 'CheongPong', sans-serif; font-weight: 700; }
+
+/* KwangMyeong (광명체) */
+.font-kwangmyeong { font-family: 'KwangMyeong', sans-serif; }
+.font-kwangmyeong-medium { font-family: 'KwangMyeong', sans-serif; font-weight: 500; }
+.font-kwangmyeong-bold { font-family: 'KwangMyeong', sans-serif; font-weight: 700; }
+
+/* PyeonChe (편체) */
+.font-pyeonche { font-family: 'PyeonChe', sans-serif; }
+.font-pyeonche-bold { font-family: 'PyeonChe', sans-serif; font-weight: 700; }
+
+/* Tungkeun (퉁근체) */
+.font-tungkeun { font-family: 'Tungkeun', sans-serif; }
+
+/* KungChe (궁체) */
+.font-kungche { font-family: 'KungChe', sans-serif; }
+
+/* Yeso (예서체) */
+.font-yeso { font-family: 'Yeso', sans-serif; }
+
+/* PusKul (붓끌체) */
+.font-puskul { font-family: 'PusKul', sans-serif; }
